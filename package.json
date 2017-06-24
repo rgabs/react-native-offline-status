@@ -1,0 +1,30 @@
+{
+  "name": "react-native-offline-status",
+  "version": "1.0.0",
+  "description": "A network status bar which shows up on top when the app is offline.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgabs/react-native-offline-status.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "offline",
+    "status",
+    "bar",
+    "component"
+  ],
+  "author": "Rahul Gaba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgabs/react-native-offline-status/issues"
+  },
+  "homepage": "https://github.com/rgabs/react-native-offline-status#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "lodash": "*"
+  }
+}
