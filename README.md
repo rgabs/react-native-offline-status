@@ -5,7 +5,7 @@
 - Simple/Minimalistic installation.
 
 ## Demo
-![alt text](./gifs/android_demo.gif)
+![Demo Loading](./gifs/android_demo.gif)
 
 ## Props
 
