@@ -24,7 +24,6 @@
   "homepage": "https://github.com/rgabs/react-native-offline-status#readme",
   "peerDependencies": {
     "react": "*",
-    "react-native": "*",
-    "lodash": "*"
+    "react-native": "*"
   }
 }

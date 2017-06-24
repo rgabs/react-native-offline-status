@@ -36,7 +36,7 @@ export default AppContainer {
 
 ```js
 <OfflineBar ref={(r) => this.offlineBarRef = r} />
-{this.offlineBarRef && <Button title='Highlight Bar' onPress={this.offlineBarRef.triggerAnimation} /> title />}
+{this.offlineBarRef && <Button title='Highlight Bar' onPress={this.offlineBarRef.triggerAnimation} />}
 ```
 
 - Getting the network state: `this.offlineBarRef.state.isConnected` will return true/false is the device is connected/disconnected.
