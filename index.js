@@ -38,12 +38,18 @@ export default class OfflineBar extends Component {
     }
   };
   componentWillMount() {
-    NetInfo.isConnected.addEventListener("change", this.setNetworkStatus);
+    NetInfo.isConnected.addEventListener(
+      "connectionChange",
+      this.setNetworkStatus
+    );
     AppState.addEventListener("change", this._handleAppStateChange);
     this.animation = new Animated.Value(0);
   }
   componentWillUnMount() {
-    NetInfo.isConnected.removeEventListener("change", this.setNetworkStatus);
+    NetInfo.isConnected.removeEventListener(
+      "connectionChange",
+      this.setNetworkStatus
+    );
     AppState.removeEventListener("change", this._handleAppStateChange);
   }
   // Took Reference from https://egghead.io/lessons/react-create-a-button-shake-animation-in-react-native#/tab-code
